@@ -1,0 +1,96 @@
+body{
+    max-width: 720px;
+    margin: 0 auto;
+}
+button{
+    outline: none;
+    border: none;
+}
+img{
+    width: 100%;
+}
+.result span{
+    margin: 0 0 0 15%;
+    font-size:larger;
+    color: #fff;
+}
+header{
+    position:fixed;
+    top: 0;
+    width: 100%;
+    max-width: 720px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 18px;
+    text-align: center;
+    color: #fff;
+    background-color: #29BDE0;
+    border-bottom: 1px solid #ccc;
+}
+p{
+    margin:5% 15%;
+    font-size: 20px;
+    text-align: justify;
+    color: orange
+}
+main{
+    margin-top:60px;
+    margin-bottom: 100px ;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    max-width: 720px;
+    height: 100px;
+    background-color: rgba(104,205,213,0.8);
+}
+.victory{
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+.game-info{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    word-spacing: 12px;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+.detail{
+    border-bottom: 1px solid #ddd;
+}
+.detail li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 15%;
+    font-size: larger;
+}
+.detail li span{
+    color: #a6a6a6;
+}
+.continue,.share{
+    width: 40%;
+    height: 60px;
+    margin: 20px 2.5%;
+    font-size: large;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+}
+.continue{
+    background-color: red;
+}
+.share{
+    background-color: orange;
+}
+footer a{
+    color: #fff;
+    text-decoration: none;
+}
